@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  padding: 30px;
 }
 
 .App-logo {
@@ -30,4 +31,18 @@
   to {
     transform: rotate(360deg);
   }
+}
+.region-container {
+  padding: 20px;
+  border-radius: 15px;
+  text-align: left;
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.4);
+}
+.add-region-content {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+.add-region-content h2 {
+  font-weight: bold;
 }
